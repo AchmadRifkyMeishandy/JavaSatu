@@ -1,29 +1,19 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+# Java build output
+*.class
+/out/
+/build/
 /dist/
+/target/
+/nbbuild/
 /nbdist/
-/.nb-gradle/
 
-### VS Code ###
+# IDE and local settings
+.idea/
+*.iml
 .vscode/
+nbproject/private/
 
-### Mac OS ###
+# Logs and OS files
+*.log
 .DS_Store
+Thumbs.db
